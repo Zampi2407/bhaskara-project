@@ -1,0 +1,13 @@
+.calculadora {
+  background: grey;
+  border-radius: 30px;
+}
+
+.botoes {
+  border-radius: 30px;
+  text-align: center;
+}
+
+.Raiz {
+  text-decoration: underline;
+}
