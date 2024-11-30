@@ -36,7 +36,7 @@ const BhaskaraForm = () => {
 
   return (
     <div class="calculadora">
-      <h2>Calculadora de Bhaskara</h2>
+      <h2 class="titulo">Calculadora de Bhaskara</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label class="botoes">
@@ -51,6 +51,7 @@ const BhaskaraForm = () => {
         </div>
         <div>
           <label class="botoes">
+            <br></br>
             Coeficiente B:
             <br></br>
             <input
@@ -62,6 +63,7 @@ const BhaskaraForm = () => {
         </div>
         <div>
           <label class="botoes">
+            <br></br>
             Coeficiente C:
             <br></br>
             <input
@@ -71,7 +73,9 @@ const BhaskaraForm = () => {
             />
           </label>
         </div>
-        <button type="submit">Calcular</button>
+        <button class="calculo" type="submit">
+          Calcular
+        </button>
       </form>
       <div>
         <p class="Raiz">Raíz 1: {resultadoX1}</p>
