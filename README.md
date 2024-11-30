@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# **CALCULADORA DE BHASKARA! RÁPIDA E FUNCIONAL!**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 **Criando uma Calculadora de Bhaskara em Java!** 🤓💻
 
-## Available Scripts
+Se você está começando a programar e quer impressionar seus amigos (ou o professor 👀), que tal criar uma **Calculadora de Bhaskara** em Java? Vamos lá, porque resolver equações quadráticas nunca foi tão estiloso! 🚀
 
-In the project directory, you can run:
+----------
 
-### `npm start`
+### 🎯 **O Desafio:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A fórmula de Bhaskara resolve equações do tipo:  
+`ax² + bx + c = 0`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A mágica acontece com a fórmula:  
+**x = (-b ± √(b² - 4ac)) / 2a**
 
-### `npm test`
+📢 Mas calma! Antes de sair digitando, lembre-se de que:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   O valor de **Δ (delta)** precisa ser maior ou igual a 0. Porque raiz negativa não rola no mundo dos números reais, né? 🚫🧙‍♂️
+----------
+### 🌈 **Por que isso é legal?**
 
-### `npm run build`
+1.  **Interatividade**: Seu programa conversa com você! 😍
+2.  **Matemática sem dor**: Bhaskara feita em segundos, sem rabiscar no caderno. 📐✏️
+3.  **Erro tratado**: Se o delta for negativo, a gente avisa com estilo! 🚨
+-------
+4. ### 🚀 **Dicas para Aprimorar:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Adicione validações extras para garantir que **a ≠ 0** (se for, não é equação quadrática!). 🔢
+-   Use cores no terminal (com bibliotecas como Jansi) para deixar tudo mais chamativo! 🎨
+-   Crie um **loop** para permitir várias contas sem precisar reiniciar o programa. 🔄
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+E aí, pronto para resolver equações com classe? 😎👨‍💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+------------
+# **COMO RODAR MEU PROJETO??**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🛠️ **npm install**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.  Esse comando instala todas as dependências listadas no arquivo **`package.json`**.
+    -   Ele baixa os pacotes necessários para o projeto funcionar e os coloca na pasta **`node_modules`**.
+    -   Use-o sempre que baixar um projeto ou clonar do GitHub pela primeira vez.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Como rodar:**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm install` 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+----------
 
-### Code Splitting
+### 🚀 **npm start**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1.  Esse comando inicia o projeto. Ele usa o script definido no **`package.json`** (geralmente em `"scripts": { "start": ... }`).
+2.  Ideal para projetos como React ou Node.js, onde ele começa a rodar o servidor local ou a aplicação.
 
-### Analyzing the Bundle Size
+**Como rodar:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`npm start` 
 
-### Advanced Configuration
+----------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### ⚡ Passo a Passo no Terminal do VS Code
 
-### Deployment
+1.  Abra o terminal com **Ctrl +**.
+2.  Certifique-se de que está na pasta do projeto:
+    
+    
+    `cd caminho-do-projeto` 
+    
+3.  Execute:
+    -   **Instalar dependências:**
+        
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+        
+        `npm install` 
+        
+    -   **Iniciar o projeto:**
+        
 
-### `npm run build` fails to minify
+        
+        `npm start` 
+        
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Pronto! Seu projeto deve estar rodando. 🎉
